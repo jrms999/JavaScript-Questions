@@ -1,0 +1,69 @@
+* {
+	transition: 0.3s ease;
+}
+body {
+	background-color: #baffeb!important;
+	margin: 0;
+	padding: 0;
+  transition: none;
+}
+.container-fluid {
+	background-color: #baffeb;background: linear-gradient(to bottom, #baffeb 38%,#a3eaf7 71%,#86c1ef 100%);
+}
+.page-header h1 {
+	color: tomato;
+}
+.card .container .col-12 h2 {
+	color: #FFF;
+}
+div.card {
+	background-color: tomato;
+	border: none!important;
+	box-shadow: 0 10px 0 #9ab1ea;
+}
+div.card:hover {
+	cursor: pointer;
+	box-shadow: 0 5px 0 #9ab1ea;
+}
+div.card:hover div div h2 {
+	transform: scale(1.3);
+}
+.modal-header {
+	color: black;
+}
+.btn-group-vertical {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+}
+.green {
+	background-color: green;
+	color: #FFF;
+}
+.red {
+	background: tomato;
+	color: #FFF;
+}
+a {
+  background-color: rgba(255,99,71,0.6);
+  color: #FFF;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+a:hover {
+  background-color: tomato;
+  text-decoration: none;
+  color: #FFF;
+}
+a:focus {
+  border: none;
+  text-decoration: none;
+}
+i {
+  font-size: 24px;
+  display: inline;
+}
+a h4 {
+  display: inline;
+}
